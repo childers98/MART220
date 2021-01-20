@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+        <script>  
+        var width = 700
+        var height = 500
+
+            function setup()
+            {
+            createCanvas(700,500);
+            //top border
+            fill(0);
+            rect(0,0, 700, 25);
+            //left border
+            rect(0,0,25, 500);
+            //bottom border
+            rect(0, 500 - 25, 700, 25);
+            // right border
+            rect(700 - 25, 0, 25, 500 - 25);
+            }
+            function draw()
+            {
+            // cyan ellipse
+            strokeWeight(0);
+            fill(108,221,243);
+            ellipse(150,150,175,225);
+            // light blue ellipse
+            fill(216,232,232);
+            ellipse(400,320,50,206);
+            // green triangle
+            strokeWeight(0);
+            fill(68,255,0);
+            triangle(100,40,200,150,300,35);
+            // yellow triangle
+            fill(247,255,0);
+            triangle(130,48,170,50,500,400);
+            // orange triangle
+            fill(255,154,0);
+            triangle(150,50,200,150,200,120);
+            // blue circle
+            fill(0,43,255);
+            circle(200,390,30);
+            // purple triangle
+            fill(222,0,255);
+            rect(50,255,100,150);
+            // red rectangle
+            fill(255,17,0);
+            rect(150,270,60,10);
+            // pink rectangle
+            fill(255,0,196);
+            rect(100,270,300,10);
+            //dark purple rect
+            fill(102,0,102);
+            rect(50,455,40,20);
+            //green circle
+            fill(143,255,87);
+            circle(425,75,100);
+         
+
+            //signature
+            fill(221,190,222);
+            textSize(22);
+            text("Paige Childers",550,495);
+            //title
+            fill(35,20,13);
+            textSize(35);
+            text("Bold & Beautiful Shapes",30,60);
+            }
+
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+   
+</html>
