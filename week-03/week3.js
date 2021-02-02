@@ -125,12 +125,6 @@ function draw()
     // right border
     rect(700 - 25, 0, 25, 500 - 25);
 
-    fill(0);
-    textSize(25);
-    text("Paige Childers",500,470);
-    text("Bold & Beautiful Shapes",50,50);
-    // add the time passed text
-    text("Time Passed: " + timerText, 450, 50);
     // change the shapes and color when we hit 1000
     if(counter > 1000)
     {
@@ -292,6 +286,12 @@ function draw()
     if (circle4Y >= 500 || circle4Y <= 0) {
         circle4Speed *= -1;
     }
+    fill(0);
+    textSize(25);
+    text("Paige Childers",500,470);
+    text("Bold & Beautiful Shapes",50,50);
+    // add the time passed text
+    text("Time Passed: " + timerText, 450, 50);
     
 }
 
