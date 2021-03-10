@@ -64,6 +64,7 @@ function draw(pos) {
   //elipsoid(oval in 3d) - combined with the sphere
   translate(-100, -100);
   rotateY(frameCount * 0.01);
+  rotateX(frameCount * 0.01);
   ellipsoid(50, 150, 75, 24, 24);
   pop();
 
@@ -72,6 +73,17 @@ function draw(pos) {
   rotateX(frameCount * 0.01);
   torus(55, 1, 20, 15);
   pop();
+
+  push();
+  translate(250, -225);
+  rotateX(frameCount * 0.01);
+  torus(200, 10, 20, 15);
+
+  box(15,15);
+  pop();
+
+
+  
 
 
 
