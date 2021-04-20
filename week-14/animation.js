@@ -25,19 +25,6 @@
 // }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Arrays with objects
 var movieObjects = []; //cutegirlObjects
 // Arrays that will hold images
@@ -45,7 +32,7 @@ var animation = [];
 // Variables that hold strings read in from a file
 var result;
 // Variable that will iterate over the animation and objects
-var counter = 0;
+var counter;
 // Variable that will be used when creating an interval
 var myInterval;
 // Variable to slow down movement
@@ -54,7 +41,7 @@ var currentObjects;
 
 // Read in all the files
 function preload() {
-result = loadStrings('assets/movies.txt');
+result = loadStrings('./assets/movies.txt');
 }
 
 function setup() {
@@ -80,16 +67,6 @@ myInterval = setInterval(incrementIndex, 50);
 function draw() {
 
 background(90);
-//display static images - something like this?
-// image(obstacle, obstacleX, obstacleY);
-// image(obstacle2, obstacleX, obstacleY);
-// image(obstacle3, obstacleX, obstacleY);
-//image(animation[i], cutegirlObjects[i].getX(), cutegirl[i].getY());
-
-// stop the idle interval
-clearInterval(myInterval);
-// set the variable to null
-myInterval = null;
 
 // slow the movement animations
 index++;
