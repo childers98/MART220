@@ -38,6 +38,7 @@ var myInterval;
 // Variable to slow down movement
 var index = 0;
 var currentObjects;
+var movie;
 
 // Read in all the files
 function preload() {
@@ -50,10 +51,9 @@ createCanvas(500, 500);
 // setInterval(incrementIndex, 50);
 //idle objects and set the animation array
 for (var i = 0; i < result.length; i++) {
-movieObjects.push(new imageclass('assets/' + result[i], 200, 1200));
+movieObjects.push(new imageclass('movie', 'assets/' + result[0], 'assets/' + result[result.length - 1]));
 animation[i] = movieObjects[i].getImage();
 }
-
 
 // assign the idle objects to the generic object variable
 currentObjects = movieObjects;
@@ -69,15 +69,15 @@ function draw() {
 background(90);
 
 // slow the movement animations
-index++;
-if (index > 3) {
-  incrementIndex();
-  index = 0;
-}
+// index++;
+// if (index > 3) {
+//   incrementIndex();
+//   index = 0;
+// }
 
 // display the images regardless of the movement or idle
 scale(.25,.25);
-image(currentAnimation[counter], currentObjects[counter].getX(), currentObjects[counter].getY());
+image(currentAnimation[movie], currentObjects[movie].getX(), currentObjects[movie].getY());
 currentAnimation = animation;
 }
 
