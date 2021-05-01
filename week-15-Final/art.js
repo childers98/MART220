@@ -45,11 +45,22 @@ function setup() {
 
 
   //tail - to go behind branch
-  for (y=175; y<275; y++){
-    for (x=80; x<175; x++){
+  for (y=245; y<300; y++){
+    for (x=90; x<150; x++){
       writeColor(img, x, y, 255,255,255, 255);
     }
   }
+  for (y=300; y<320; y++){
+    for (x=100; x<145; x++){
+      writeColor(img, x, y, 255,255,255, 255);
+    }
+  }
+  for (y=320; y<340; y++){
+    for (x=105; x<138; x++){
+      writeColor(img, x, y, 255,255,255, 255);
+    }
+  }
+
   //branch
   for (y=309; y<335; y++){
     for (x=0; x<30; x++){
@@ -105,7 +116,6 @@ function setup() {
   }
 
 
-
   //hummingbird
   //body
   for (y=175; y<275; y++){
@@ -118,11 +128,125 @@ function setup() {
       writeColor(img, x, y, 0,102,0, 255);
     }
   }
-  for (y=175; y<200; y++){
-    for (x=160; x<175; x++){
+  for (y=180; y<205; y++){
+    for (x=70; x<90; x++){
       writeColor(img, x, y, 0,102,0, 255);
     }
   }
+  for (y=180; y<205; y++){
+    for (x=75; x<90; x++){
+      writeColor(img, x, y, 0,102,0, 255);
+    }
+  }
+  for (y=185; y<210; y++){
+    for (x=65; x<90; x++){
+      writeColor(img, x, y, 0,102,0, 255);
+    }
+  }
+  for (y=190; y<211; y++){
+    for (x=66; x<90; x++){
+      writeColor(img, x, y, 0,102,0, 255);
+    }
+  }
+  for (y=191; y<212; y++){
+    for (x=67; x<90; x++){
+      writeColor(img, x, y, 0,102,0, 255);
+    }
+  }
+  for (y=195; y<213; y++){
+    for (x=63; x<105; x++){
+      writeColor(img, x, y, 0,102,0, 255);
+    }
+  }
+  for (y=198; y<216; y++){
+    for (x=62; x<120; x++){
+      writeColor(img, x, y, 0,102,0, 255);
+    }
+  }
+  for (y=200; y<210; y++){
+    for (x=63; x<120; x++){
+      writeColor(img, x, y, 0,102,0, 255);
+    }
+  }
+  for (y=198; y<275; y++){
+    for (x=65; x<125; x++){
+      writeColor(img, x, y, 0,102,0, 255);
+    }
+  }
+  for (y=200; y<285; y++){
+    for (x=80; x<125; x++){
+      writeColor(img, x, y, 0,102,0, 255);
+    }
+  }
+  for (y=225; y<285; y++){
+    for (x=100; x<105; x++){
+      writeColor(img, x, y, 0,102,0, 255);
+    }
+  }
+  for (y=225; y<255; y++){
+    for (x=100; x<150; x++){
+      writeColor(img, x, y, 0,102,0, 255);
+    }
+  }
+
+  //slanted green part of the body
+  for (y=190; y<205; y++){
+    for (x=100; x<110; x++){
+      writeColor(img, x, y, 33,181,35, 255);
+    }
+  }
+  for (y=200; y<215; y++){
+    for (x=110; x<120; x++){
+      writeColor(img, x, y, 33,181,35, 255);
+    }
+  }
+  for (y=215; y<225; y++){
+    for (x=120; x<135; x++){
+      writeColor(img, x, y, 33,181,35, 255);
+    }
+  }
+  for (y=225; y<245; y++){
+    for (x=135; x<155; x++){
+      writeColor(img, x, y, 33,181,35, 255);
+    }
+  }
+  for (y=225; y<245; y++){
+    for (x=155; x<170; x++){
+      writeColor(img, x, y, 33,181,35, 255);
+    }
+  }
+  for (y=240; y<275; y++){
+    for (x=120; x<170; x++){
+      writeColor(img, x, y, 33,181,35, 255);
+    }
+  }
+
+//brown speckles
+for (y=190; y<193; y++){
+  for (x=150; x<153; x++){
+    writeColor(img, x, y, 147,81,22, 255);
+  }
+}
+for (y=202; y<205; y++){
+  for (x=125; x<128; x++){
+    writeColor(img, x, y, 147,81,22, 255);
+  }
+}
+for (y=215; y<218; y++){
+  for (x=130; x<133; x++){
+    writeColor(img, x, y, 147,81,22, 255);
+  }
+}
+for (y=215; y<218; y++){
+  for (x=150; x<153; x++){
+    writeColor(img, x, y, 147,81,22, 255);
+  }
+}
+for (y=207; y<210; y++){
+  for (x=150; x<153; x++){
+    writeColor(img, x, y, 147,81,22, 255);
+  }
+}
 
   //head
   for (y=130; y<175; y++){
@@ -130,7 +254,13 @@ function setup() {
       writeColor(img, x, y, 255,255,255, 255);
     }
   }
+
   //green part of head(face)
+  for (y=120; y<150; y++){
+    for (x=100; x<160; x++){
+      writeColor(img, x, y, 0,102,0, 255);
+    }
+  }
   for (y=125; y<150; y++){
     for (x=105; x<170; x++){
       writeColor(img, x, y, 0,102,0, 255);
@@ -161,18 +291,78 @@ function setup() {
       writeColor(img, x, y, 0,102,0, 255);
     }
   }
-  //red throat part
-  for (y=153; y<158; y++){
-    for (x=180; x<185; x++){
-      writeColor(img, x, y, 204,0,0, 255);
-    }
-  }
-  for (y=153; y<158; y++){
-    for (x=180; x<185; x++){
-      writeColor(img, x, y, 204,0,0, 255);
+  for (y=150; y<155; y++){
+    for (x=100; x<160; x++){
+      writeColor(img, x, y, 0,102,0, 255);
     }
   }
 
+  //red throat part
+  for (y=153; y<158; y++){
+    for (x=100; x<185; x++){
+      writeColor(img, x, y, 204,0,0, 255);
+    }
+  }
+  for (y=153; y<158; y++){
+    for (x=100; x<185; x++){
+      writeColor(img, x, y, 204,0,0, 255);
+    }
+  }
+  for (y=158; y<163; y++){
+    for (x=100; x<180; x++){
+      writeColor(img, x, y, 204,0,0, 255);
+    }
+  }
+  for (y=163; y<166; y++){
+    for (x=100; x<180; x++){
+      writeColor(img, x, y, 204,0,0, 255);
+    }
+  }
+  for (y=166; y<169; y++){
+    for (x=100; x<180; x++){
+      writeColor(img, x, y, 204,0,0, 255);
+    }
+  }
+  for (y=166; y<169; y++){
+    for (x=100; x<180; x++){
+      writeColor(img, x, y, 204,0,0, 255);
+    }
+  }
+  for (y=169; y<184; y++){
+    for (x=100; x<115; x++){
+      writeColor(img, x, y, 204,0,0, 255);
+    }
+  }
+  for (y=169; y<184; y++){
+    for (x=123; x<138; x++){
+      writeColor(img, x, y, 204,0,0, 255);
+    }
+  }
+  for (y=169; y<184; y++){
+    for (x=145; x<160; x++){
+      writeColor(img, x, y, 204,0,0, 255);
+    }
+  }
+  for (y=169; y<184; y++){
+    for (x=163; x<178; x++){
+      writeColor(img, x, y, 204,0,0, 255);
+    }
+  }
+  for (y=169; y<173; y++){
+    for (x=160; x<165; x++){
+      writeColor(img, x, y, 242,109,27, 255);
+    }
+  }
+  for (y=169; y<178; y++){
+    for (x=135; x<147; x++){
+      writeColor(img, x, y, 242,109,27, 255);
+    }
+  }
+  for (y=169; y<175; y++){
+    for (x=115; x<124; x++){
+      writeColor(img, x, y, 242,109,27, 255);
+    }
+  }
 
 
   //beak
@@ -228,6 +418,7 @@ function setup() {
       writeColor(img, x, y, 0,0,0, 255);
     }
   }
+
 
   //upper border line
   for(y = 0; y < 5; y++)
