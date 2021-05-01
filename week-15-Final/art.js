@@ -190,6 +190,11 @@ function setup() {
   }
 
   //slanted green part of the body
+  for (y=183; y<198; y++){
+    for (x=95; x<105; x++){
+      writeColor(img, x, y, 33,181,35, 255);
+    }
+  }
   for (y=190; y<205; y++){
     for (x=100; x<110; x++){
       writeColor(img, x, y, 33,181,35, 255);
@@ -247,6 +252,22 @@ for (y=207; y<210; y++){
     writeColor(img, x, y, 147,81,22, 255);
   }
 }
+for (y=198; y<201; y++){
+  for (x=170; x<173; x++){
+    writeColor(img, x, y, 147,81,22, 255);
+  }
+}
+for (y=227; y<230; y++){
+  for (x=170; x<173; x++){
+    writeColor(img, x, y, 147,81,22, 255);
+  }
+}
+for (y=224; y<227; y++){
+  for (x=165; x<168; x++){
+    writeColor(img, x, y, 147,81,22, 255);
+  }
+}
+
 
   //head
   for (y=130; y<175; y++){
@@ -298,6 +319,11 @@ for (y=207; y<210; y++){
   }
 
   //red throat part
+  for (y=158; y<175; y++){
+    for (x=93; x<125; x++){
+      writeColor(img, x, y, 204,0,0, 255);
+    }
+  }
   for (y=153; y<158; y++){
     for (x=100; x<185; x++){
       writeColor(img, x, y, 204,0,0, 255);
