@@ -389,6 +389,21 @@ for (y=224; y<227; y++){
       writeColor(img, x, y, 242,109,27, 255);
     }
   }
+  for (y=160; y<165; y++){
+    for (x=120; x<125; x++){
+      writeColor(img, x, y, 247,73,2, 255);
+    }
+  }
+  for (y=163; y<168; y++){
+    for (x=110; x<115; x++){
+      writeColor(img, x, y, 247,73,2, 255);
+    }
+  }
+  for (y=158; y<162; y++){
+    for (x=140; x<145; x++){
+      writeColor(img, x, y, 247,73,2, 255);
+    }
+  }
 
 
   //beak
